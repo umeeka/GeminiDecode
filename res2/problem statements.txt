@@ -5,9 +5,11 @@ Tailored for global enterprises, GeminiDecode supports over 50 languages, offeri
 Define Problem Statements (Customer Problem Statement Template):
 We demonstrate the usefulness of GeminiDecode by exploring three distinct scenarios where the GeminiDecode solution can be applied effectively:
 Problem Statement 
-PS-1 I am (Customer) I’m trying to But Because Which makes me feel PS-1 A Lawyer Review large volumes of contracts and legal documents. 
-The task can be time consuming and error prone. The task may require foreign correspondence Frustrated
-PS-2 An Accountant Process large volumes of financial documents like invoices, receipts, and bank statements. 
-This gets tedious and prone to data entry errors. Handling finances requires utmost care and precision Inefficient 
-PS-3 A Nurse Review and summarize medical records, patient charts, and lab reports. 
-The task gets tedious and mundane due to its large volume The task has to summarized and formatted manually leaving inconsistencies Helpless
+(ProbState) I am (Customer) | I’m trying to| But | Because | Which makes me feel 
+PS-1 A Lawyer | Review large volumes of contracts and legal documents. |
+The task can be time consuming and error prone.| The task may require foreign correspondence | Frustrated
+PS-2 An Accountant | Process large volumes of financial documents like invoices, receipts, and bank statements. |
+This gets tedious and prone to data entry errors | Handling finances requires utmost care and precision| Inefficient 
+PS-3 A Nurse | Review and summarize medical records, patient charts, and lab reports. |
+The task gets tedious and mundane due to its large volume |
+The task has to summarized and formatted manually leaving inconsistencies| Helpless
