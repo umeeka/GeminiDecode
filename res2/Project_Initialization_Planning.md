@@ -28,9 +28,7 @@ This project proposal outlines a solution to address a specific problem. With a 
 *Project Overview*
 - **Objective)** The GeminiDecode Project: Developing a general artificial intelligence model for the extraction of accurate information from document content written in several languages and interpreting them accordingly. The model, called Gemini Pro, tries to make document processing flawless across languages, hence increasing accessibility and efficiency in multilingual environments.
 - **Scope)** Theses covered under the scope include; Development of the Gemini Pro Model for Document Extraction, Multi-lingual support with languages like English, Spanish, French, German, Chinese, and Arabic, Utilize NLP that interprets and understands documents as being vastly text-based, Easy access and use through the interface and Model Deployment into real-world Business, Academic, and Government Applications.
-  
-*Problem Statement*
--**Description)** Documents in the modern, highly globalized business environment are usually in several different languages—which is the main hurdle faced by an organization interested in an appropriate processing and interpretation of such documents. Most traditional document extraction tools, configured with some specific languages, usually require intensely laborious manual translation and extraction.
+-**Problem Statement Description)** Documents in the modern, highly globalized business environment are usually in several different languages—which is the main hurdle faced by an organization interested in an appropriate processing and interpretation of such documents. Most traditional document extraction tools, configured with some specific languages, usually require intensely laborious manual translation and extraction.
 -**Impact)** Implications of resolving this issue include: increased multilingual document processing efficiency, less manual labor is needed throughout the translation and extraction process,  improved cross-language information accessibility,  companies handling foreign documentation operating with greater efficacy and efficiency.
 
 *Proposed Solution*
