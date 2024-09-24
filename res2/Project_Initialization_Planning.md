@@ -25,22 +25,20 @@ The task has to summarized and formatted manually leaving inconsistencies| Helpl
 ## PROPOSED SOLOUTION
 This project proposal outlines a solution to address a specific problem. With a clear objective, defined scope, and a concise problem statement, the proposed solution details the approach, key features, and resource requirements, including hardware, software, and personnel. 
 
-####Project Overview
-**Objective**
-- The GeminiDecode Project: Developing a general artificial intelligence model for the extraction of accurate information from document content written in several languages and interpreting them accordingly. The model, called Gemini Pro, tries to make document processing flawless across languages, hence increasing accessibility and efficiency in multilingual environments.
+*Project Overview*
+- **Objective)** The GeminiDecode Project: Developing a general artificial intelligence model for the extraction of accurate information from document content written in several languages and interpreting them accordingly. The model, called Gemini Pro, tries to make document processing flawless across languages, hence increasing accessibility and efficiency in multilingual environments.
+- **Scope)** Theses covered under the scope include; Development of the Gemini Pro Model for Document Extraction, Multi-lingual support with languages like English, Spanish, French, German, Chinese, and Arabic, Utilize NLP that interprets and understands documents as being vastly text-based, Easy access and use through the interface and Model Deployment into real-world Business, Academic, and Government Applications.
   
-**Scope** Theses covered under the scope include; Development of the Gemini Pro Model for Document Extraction, Multi-lingual support with languages like English, Spanish, French, German, Chinese, and Arabic, Utilize NLP that interprets and understands documents as being vastly text-based, Easy access and use through the interface and Model Deployment into real-world Business, Academic, and Government Applications.
-  
-**Problem Statement*
+*Problem Statement*
 -**Description)** Documents in the modern, highly globalized business environment are usually in several different languages—which is the main hurdle faced by an organization interested in an appropriate processing and interpretation of such documents. Most traditional document extraction tools, configured with some specific languages, usually require intensely laborious manual translation and extraction.
--**Impact)** Implications of resolving this issue include: increased multilingual document processing efficiency, less manual labor is needed throughout the translation and extraction process,  improved cross-language information accessibility,  companies handling foreign documentation operating with greater efficacy and efficiency. 
-####Proposed Solution
+-**Impact)** Implications of resolving this issue include: increased multilingual document processing efficiency, less manual labor is needed throughout the translation and extraction process,  improved cross-language information accessibility,  companies handling foreign documentation operating with greater efficacy and efficiency.
+
+*Proposed Solution*
 - **Approach)** The solution to be recommended would be to develop Gemini Pro with cutting-edge state-of-the-art NLP techniques and machine learning algorithms for extracting and interpreting information in documents in multiple languages. It consists of gathering diversified data of documents in different languages, Processing data for consistency and quality, Training a Deep-Learning-Based Multilanguage Document Extraction Model, then validate the model for its performance through rigorous testing and  finally Deploying the model and integrating it with an intuitive user interface.
   
 - **Key Features**) Multilanguage Support, High Accuracy, Scalability, User-Friendly Interface,Real-Time Processing
   
-**Resource Requirements:*
-
+*Resource Requirements:*
 - **Hardware)**
 Computing Resources and Memory
 CPU/GPU specifications according to google colab and Kaggle
