@@ -1,6 +1,6 @@
-PROBLEM STATEMENTS
+##PROBLEM STATEMENTS
 
-GeminiDecode:
+###GeminiDecode:
 Gemini Pro's Multilanguage Document Extraction is a state-of-the-art tool engineered to efficiently extract and process data from documents in various languages. 
 Utilizing sophisticated natural language processing (NLP) and machine learning techniques, it accurately identifies, extracts, and categorizes information from a wide range of document formats. 
 Tailored for global enterprises, GeminiDecode supports over 50 languages, offering powerful data extraction functionalities that simplify workflows, boost productivity, and enhance decision-making.
@@ -16,14 +16,14 @@ PS-3 A Nurse | Review and summarize medical records, patient charts, and lab rep
 The task gets tedious and mundane due to its large volume |
 The task has to summarized and formatted manually leaving inconsistencies| Helpless
 
-PROJECT PLANNING
+##PROJECT PLANNING
 1-Data Collection
 2-Data Preprocessing
 3-Model Training 
 4-Model Evaluation
 5-UI Development
 
-PROPOSED SOLOUTION
+##PROPOSED SOLOUTION
 This project proposal outlines a solution to address a specific problem. With a clear objective, defined scope, and a concise problem statement, the proposed solution details the approach, key features, and resource requirements, including hardware, software, and personnel. 
 
 Project Overview
