@@ -44,7 +44,7 @@ GeminiDecode is a cutting-edge solution designed to extract and process data fro
 
 ## Prior Knowledge Required
 
-You must have prior knowledge of the following topics to complete this project:
+Its benificial to have prior knowledge of the following topics to complete this project:
 
 - **Generative AI Concepts**
     - [NLP](https://www.tutorialspoint.com/natural_language_processing/index.htm)
@@ -55,14 +55,3 @@ You must have prior knowledge of the following topics to complete this project:
     - [Streamlit](https://www.geeksforgeeks.org/a-beginners-guide-to-streamlit/)
 
 ---
-
-## Collaborators
-
-- [Karthik Sagar Nallagula](https://github.com/karthiksagarN)
-- [Shweta Thakur](https://github.com/ShwetaThakur702)
-- [Tanay Saxena](https://github.com/Tanay-Saxena)
-- [Rishabh Prasad](https://github.com/Riri0410)
-
----
-
-For more details, please refer to the respective documentation and tutorials linked above.
