@@ -17,7 +17,7 @@ import base64
 from io import BytesIO
 load_dotenv()
 
-genai.configure(api_key=os.getenv("AIzaSyBJrUppWh3tEOHS613yLqLvl8dum0zr4-0"))
+genai.configure(api_key=os.getenv("google-api"))
 
 def get_pdf_text(pdf_docs):
     text = ""
