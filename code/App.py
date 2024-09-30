@@ -44,7 +44,7 @@ def set_background(image_file):
     st.markdown(css, unsafe_allow_html=True)
 
 # Set the background image
-set_background("bg.png")
+set_background("code/bg.png")
 
 st.header("Gemini-Decode : VLM")
 input = st.text_input("Input : ", key = "input")
