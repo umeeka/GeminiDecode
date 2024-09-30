@@ -85,7 +85,7 @@ def main():
         st.markdown(css, unsafe_allow_html=True)
 
 
-    set_background("bg.png")
+    set_background("code/bg.png")
 
     st.header("Gemini-Decode : PDF Bot 💬📄")
 
@@ -96,7 +96,7 @@ def main():
 
     with st.sidebar:
         st.title("Menu:")
-        st.image("sidebar.png", use_column_width=True)
+        st.image("code/sidebar.png", use_column_width=True)
         pdf_docs = st.file_uploader("Upload Your PDF Files and Click on the Submit & Process Button", accept_multiple_files=True, type='pdf')
         if st.button("Submit & Process") :
             with st.spinner("Processing..."):
@@ -104,7 +104,7 @@ def main():
                 text_chunks = get_text_chunks(raw_text)
                 get_vector_store(text_chunks)
                 st.success("Done")
-        st.image("info.png", use_column_width=True)
+        st.image("code/info.png", use_column_width=True)
 
 if __name__ == "__main__":
     main()
