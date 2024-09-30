@@ -23,8 +23,17 @@ GeminiDecode is a cutting-edge solution designed to extract and process data fro
 ### Steps to Complete the Project
 
 1. **Requirements Specification**
-    - Create a `requirements.txt` file to list the required libraries.
-    - Install the required libraries.
+   Create a `requirements.txt` file to list the required libraries.Install the required libraries.
+   Specifying the required libraries making it easier for others to replicate the development environment.
+
+    - Streamlit:  Streamlit is a powerful framework for building interactive web applications with Python.
+    - Streamlit_extras:  Additional utilities and enhancements for Streamlit applications.
+    - Google-generativeai:  Python client library for accessing the GenerativeAI API, facilitating interactions with pre-trained language models like Gemini Pro.
+    - Python-dotenv:  Python-dotenv allows you to manage environment variables stored in a .env file for your Python projects.
+    - PyPDF2:  It is a Python library for extracting text and manipulating PDF documents.
+    - Pillow:  Pillow is a Python Imaging Library (PIL) fork that adds support for opening, manipulating, and saving many different image file formats.
+    - LangChain: Provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate
+ 
 
 2. **Initialization of Google API Key**
     - Generate Google API Key.
@@ -51,15 +60,4 @@ Its benificial to have prior knowledge of the following topics to complete this 
     - [Gemini API](https://ai.google.dev/gemini-api/docs/get-started/python)
     - [Gemini Demo](https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/gemini-api/docs/get-started/python.ipynb)
     - [Streamlit](https://www.geeksforgeeks.org/a-beginners-guide-to-streamlit/)
-
-## Requirements Specification
-Specifying the required libraries making it easier for others to replicate the development environment.
-
-- Streamlit:  Streamlit is a powerful framework for building interactive web applications with Python.
-- Streamlit_extras:  Additional utilities and enhancements for Streamlit applications.
-- Google-generativeai:  Python client library for accessing the GenerativeAI API, facilitating interactions with pre-trained language models like Gemini Pro.
-- Python-dotenv:  Python-dotenv allows you to manage environment variables stored in a .env file for your Python projects.
-- PyPDF2:  It is a Python library for extracting text and manipulating PDF documents.
-- Pillow:  Pillow is a Python Imaging Library (PIL) fork that adds support for opening, manipulating, and saving many different image file formats.
-- LangChain: Provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate
 
