@@ -23,6 +23,7 @@ GeminiDecode is a cutting-edge solution designed to extract and process data fro
 ### Steps to Complete the Project
 
 1. **Requirements Specification**
+
    Create a `requirements.txt` file to list the required libraries.Install the required libraries.
    Specifying the required libraries making it easier for others to replicate the development environment.
 
@@ -35,17 +36,17 @@ GeminiDecode is a cutting-edge solution designed to extract and process data fro
     - LangChain: Provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate
  
 
-2. **Initialization of Google API Key**
+3. **Initialization of Google API Key**
     - Generate Google API Key.
     - Initialize Google API Key.
 
-3. **Interfacing with Pre-trained Model**
+4. **Interfacing with Pre-trained Model**
     - Load the Gemini Pro pre-trained model.
     - Implement a function to get Gemini response.
     - Implement a function to read PDF content.
     - Write a prompt for Gemini model.
 
-4. **Model Deployment**
+5. **Model Deployment**
     - Integrate with Web Framework.
     - Host the Application.
 
