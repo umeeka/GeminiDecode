@@ -1,4 +1,4 @@
-!pip install -r requirements.txt
+#!pip install -r requirements.txt
 
 import os
 # to execute the whole code in huggingface.
