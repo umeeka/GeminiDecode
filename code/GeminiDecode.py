@@ -1,8 +1,8 @@
 !pip install -r requirements.txt
 
 import os
-# exec(os.getenv("CODE"))   # to execute the whole code in huggingface.
-
+# to execute the whole code in huggingface.
+#exec(os.getenv("CODE"))
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -19,7 +19,6 @@ load_dotenv()
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-## going to each and very pdf and each page of that padf and extracting text from it.
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
@@ -33,13 +32,11 @@ def get_text_chunks(text):
     chunks = text_splitter.split_text(text)
     return chunks
 
-## converting chunks into vectors
 def get_vector_store(text_chunks):
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
     vector_store = FAISS.from_texts(text_chunks, embedding =embeddings)
     vector_store.save_local("faiss_index")
 
-## developing bot
 def get_conversational_chain():
     prompt_template= """ANALAYZE THE PDF CONTEXT and
     Answer the question as detailed as possible from the provided context, make sure to provide
@@ -47,7 +44,6 @@ def get_conversational_chain():
     don't provide the wrong answer.
     Context: \n{context}?\n
     Question: \n{question}\n
-
     Answer:
     """
     model = ChatGoogleGenerativeAI(model = "gemini-pro", temperature= 0.9)
@@ -55,7 +51,7 @@ def get_conversational_chain():
     chain = load_qa_chain(model, chain_type="stuff", prompt= prompt)
     return chain
 
-## the user input interface
+
 def user_input(user_question):
     embeddings = GoogleGenerativeAIEmbeddings(model='models/embedding-001')
 
@@ -69,11 +65,10 @@ def user_input(user_question):
     print(response)
     st.write("Bot: ", response["output_text"])
 
-# streamlit app
-def main():
-    st.set_page_config(page_title="Chat With Multiple PDF")
 
-    # Function to set a background image
+def main():
+    st.set_page_config(page_title="Chat With Multiple Multilingual PDF")
+
     def set_background(image_file):
         with open(image_file, "rb") as image:
             b64_image = base64.b64encode(image.read()).decode("utf-8")
@@ -89,7 +84,7 @@ def main():
         """
         st.markdown(css, unsafe_allow_html=True)
 
-    # Set the background image
+
     set_background("bg.png")
 
     st.header("Gemini-Decode : PDF Bot 💬📄")
