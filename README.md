@@ -52,6 +52,8 @@ GeminiDecode is a cutting-edge solution designed to extract and process data fro
 
 ## Prior Knowledge Required
 
+- **Google Profile:** https://www.cloudskillsboost.google/public_profiles/8a3c195d-81ae-4c80-9359-b082be44d8c7
+
 Its benificial to have prior knowledge of the following topics to complete this project:
 
 - **Generative AI Concepts**
